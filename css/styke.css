@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+    box-sizing: border-box;
+    max-width: 2300px;
+}
+
+
+.wrap{
+    width: 2070px;
+    height: 1080px;
+    flex-shrink: 0;
+    border: 2px solid rgb(0, 0, 0);
+}
+.hero{
+    background: url(../image/pavel-fertikh-R1Wy2m3oFqQ-unsplash\ 1.jpg)no-repeat;
+    width: 2300px;
+    height: 100vh;
+    background-size:cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 720px;
+    margin: 69px 876px ;
+    color: #070707;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.btn{
+    width: 236px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+    font-size: 15px;
+    color: #FFF;
+    font-family: Krona One;
+    text-transform: uppercase;
+}
+
+.header-burger{
+    width: 39px;
+    height: 39px;
+    flex-shrink: 0;
+}
+
+
+.header-info{
+    color: #FFF;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.header-btn{
+    display: flex;
+    flex-direction: column;
+    width: 43px;
+    height: 43px;
+    align-items: center;
+    gap: 3px;
+  
+}
+
+.ebaut{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.ebaut__info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 2300px;
+}
+
+.ebaut__info-title{
+    color: #151515;
+    font-family: Krona One;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 259px;
+    width: 1150px;
+    height: 1081px;
+}
+
+.ebaut__info-text{
+    width: 688px;
+    color: #151515;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align:center;
+}
+
+.ebaut-img{
+    width: 1150px;
+    margin-top: 72px;
+    height: 1081px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.gallery{
+    background: #070707;
+    width: 1920px;
+    height: 2032px;
+    flex-shrink: 0;
+}
+
+.gallery-tex{
+    color: #FFF;
+    font-family: Krona One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 118px 1446px 102px 126px ;
+}
+    
+.gallery-img{
+    width: 1920px;
+    height: 2032px;
+    display: flex;
+    flex-direction: column;
+}
+
+
